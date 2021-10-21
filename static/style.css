@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #d62d12eb;
+    padding: 18px 15px;
+    font-family: 'Patrick Hand';
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    color: white;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif';
+    font-size: 50px;
+    background: center/cover no-repeat url("/static/img/bg.jpeg");
+    height: 450px;
+    background-color: red;
+}
+#introSection div.small{
+    padding: 3px;
+    font-size: 45px;
+    font-family: "yeon sung";
+}
+
+#missionSection{
+    margin: auto;
+    width: 67%;
+    display: block;
+    height: 350px;
+}
+
+#missionSection h2{
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'yeon sung';
+    text-align: center;
+}
+
+.card{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 250px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px;    
+    font-family: "yeon sung";
+    
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+    margin: 5px 10px;
+    margin-top: 18px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 18px;
+}
+#sponsorSection{
+    height: 300px;
+    background-color: #ee8574eb;
+}
+#sponsorSection h2{
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'yeon sung';
+    text-align: center;
+}
+
+#sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    margin: 25px auto;
+    max-width: 1000px;
+}
+.sp-image{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "yeon sung";
+    font-size: 20px;
+    height: 60px;
+    background-color: black;
+}

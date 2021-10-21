@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 70vh;
+    margin: 40px 0;
+}
+.container h1{
+    font-size: 35px;
+    font-family: 'Bree Serif';
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    padding: 7px;
+    margin: 6px;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 8px 16px;
+    margin: 18px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    border-radius: 12px;
+    color: white;
+    background: red;
+    outline: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #ff0404;
+    color: white;
+    font-weight: bold;
+}

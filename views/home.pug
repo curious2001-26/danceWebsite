@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to Sonam's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+          h3 Dance Perfection
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/img1.jpg", alt="image 1")
+            div.card-content 
+              p It takes an athlete to dance, but an artist to be a dancer. 
+        div.card 
+          h3 Dance the way you like
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/img2.png", alt="image 2")
+            div.card-content 
+              p “Don't breathe to survive; dance and feel alive.”
+        div.card 
+          h3 Expert Teaching
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/img3.png", alt="image 1")
+            div.card-content 
+              p This is the best Dance Academy of India 
+    section#sponsorSection
+        h2 Our Sponsors
+        div#sponsors 
+          img(src="/static/img/hp-logo.png", alt="HP-logo" Class="sp-image")
+          img(src="/static/img/apple-logo.png", alt="Apple-logo" Class="sp-image")
+          img(src="/static/img/microsoft-logo.png", alt="Microsoft-logo" Class="sp-image")
+          img(src="/static/img/facebook-logo1.png", alt="Facebook-logo" Class="sp-image")
